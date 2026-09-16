@@ -1,5 +1,7 @@
 nav {
     padding: 10px;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 nav ul {
@@ -19,7 +21,7 @@ nav ul li a {
 }
 
 nav ul li a.active {
-    background-color: #c3c2c2;
+    background-color: #ffffff;
     color: #000000;
 }
 
@@ -29,7 +31,7 @@ nav ul li a:hover {
 }
 
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 10rem;
   position: relative;
   margin: auto;
 }
@@ -43,19 +45,19 @@ nav ul li a:hover {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
-  padding: 16px;
+  margin-top: -2.2rem;
+  padding: 1.6rem;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.8rem;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 2rem 2rem 0;
   user-select: none;
 }
 
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 2rem 0 0 2rem;
 }
 
 .prev:hover, .next:hover {
@@ -64,27 +66,27 @@ nav ul li a:hover {
 
 .text {
   color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
+  font-size: 1.2rem;
+  padding: 3rem 1.2rem;
   position: absolute;
-  bottom: 8px;
+  bottom: 8rem;
   width: 100%;
   text-align: center;
 }
 
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
+  font-size: 1.2rem;
+  padding: 3rem 1.2rem;
   position: absolute;
   top: 0;
 }
 
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 0 0.5rem;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -97,10 +99,38 @@ nav ul li a:hover {
 
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
 }
 
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    max-width: 10rem;
+    height: auto;
+    float: left;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+header {
+    margin-bottom: 2rem;
+    background-color: #bebebe;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #bebebe;
+    color: #000000;
 }
