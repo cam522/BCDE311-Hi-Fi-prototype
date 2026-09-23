@@ -388,3 +388,46 @@ main h2 {
     padding-top: 2rem;
     color: #000000;
 }
+
+main ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+    text-align: left;
+    color: #000000;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #070707;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1.1rem;
+}
+
+.accordion.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 1rem;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; 
+}
