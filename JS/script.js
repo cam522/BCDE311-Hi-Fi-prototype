@@ -1,4 +1,4 @@
-// Slideshow
+// Slideshow functionality
 let slideIndex = 1;
 
 function showSlides(n) {
