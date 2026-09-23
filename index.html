@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <script src="./JS/script.js"></script>
     <title>PCFNZ</title>
 </head>
@@ -16,7 +16,7 @@
         <nav>
             <ul>
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="./pages/about.html">About</a></li>
+                <li><a href="./pages/about.html">About PCFNZ</a></li>
                 <li><a href="./pages/FAQ.html">FAQ</a></li>
             </ul>
         </nav>
@@ -27,21 +27,18 @@
         
         <!-- The slideshow images -->
         <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="img1.jpg" style="width:100%">
-            <div class="text">Caption Text</div>
+            <div class="numbertext"></div>
+            <img src="/images/blue-september.png" style="width:100%">
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="img2.jpg" style="width:100%">
-            <div class="text">Caption Two</div>
+            <div class="numbertext"></div>
+            <img src="/images/pedal4prostate.png" style="width:100%">
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="img3.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
+            <div class="numbertext"></div>
+            <img src="/images/support-services.png" style="width:100%">
         </div>
 
         <!-- Next and previous buttons -->
@@ -56,7 +53,71 @@
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
     </div>
+    <br>
+
+<!-- Events Section -->
+    <section class="events-section">
+        <div class="events-copy">
+            <h2>Events</h2>
+            <p>
+                Take a look at our calendar and see if there’s an event near to you that
+                you would like to support or volunteer for. Use the filtering options
+                available to find what you’re looking for. Can’t find one or keen to
+                organise your own? Check out our Fundraise for Prostate page on the menu
+                under Get Involved.
+            </p>
+
+            <a href="#" class="cta-btn">View Our Events Calendar</a>
+        </div>
+
+        <!-- shows the list of events -->
+        <div class="events-list">
+            <article class="event-card">
+                <img src="./images/pedal4prostateevent.png" alt="Pedal4Prostate">
+                <div class="event-body">
+                    <h3>Pedal4Prostate</h3>
+
+                    <div class="event-row">
+                        <div class="date-box">
+                            <span class="month">OCT</span>
+                            <span class="day">11</span>
+                        </div>
+
+                        <div class="event-meta">
+                            <p class="place">Hampton Downs Motorsport Park</p>
+                            <p class="time">7:00 AM</p>
+                            <p>Admission: N/A</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="event-card">
+                <img src="./images/QandAevent.png" alt="Webinar">
+                <div class="event-body">
+                    <h3>Webinar: Understanding and managing e...</h3>
+
+                    <div class="event-row">
+                        <div class="date-box small">
+                            <span class="month">SEP</span>
+                            <span class="day">09</span>
+                        </div>
+
+                        <div class="event-meta">
+                            <p class="place">Online</p>
+                            <p class="time">6 - 7PM</p>
+                            <p>Admission: N/A</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
 </body>
+<br>
+<br>
+
+<!-- Footer -->
 <footer>
     <p>&copy; 2026 Prostate Cancer Foundation of New Zealand. All rights reserved.</p>
     <p style="font-weight: bold;">The information for this website was provided by the original PCFNZ website. I make no claims of ownership to this, and all credit goes to the original owners.</p>
