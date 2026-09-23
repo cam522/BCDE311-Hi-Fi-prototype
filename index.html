@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./JS/script.js"></script>
+    <script src="./JS/script.js" defer></script>
     <title>PCFNZ</title>
 </head>
 <body>
@@ -16,7 +16,14 @@
         <nav>
             <ul>
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="./pages/about.html">About PCFNZ</a></li>
+                <li class="dropdown">
+                    <button class="dropbtn">About</button>
+                    <div class="dropdown-content">
+                        <a href="./pages/about-PCFNZ.html">About the PCFNZ</a>
+                        <a href="./pages/prostate.html">About the prostate</a>
+                        <a href="./pages/prostate-cancer.html">About prostate cancer</a>
+                    </div>
+                </li>
                 <li><a href="./pages/FAQ.html">FAQ</a></li>
             </ul>
         </nav>
