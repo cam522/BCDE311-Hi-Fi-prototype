@@ -46,6 +46,11 @@ nav a:hover, .dropdown:hover .dropbtn {
     text-align: left;
 }
 
+.dropdown-content a.active {
+    background-color: #c1c1c1;
+    color: #000000;
+}
+
 .dropdown-content a:hover {
     background-color: #8d8d8c;
     color: #000000;
@@ -92,7 +97,7 @@ nav ul li a,
 }
 
 nav ul li a.active {
-    background-color: #ffffff;
+    background-color: #8d8d8c;
     color: #000000;
 }
 
@@ -375,5 +380,11 @@ main p {
     font-size: 1.2rem;
     line-height: 1.6;
     color: #000000;
-    padding: 2rem;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    color: #000000;
 }
