@@ -1,4 +1,4 @@
 # TODO
 * Donate page
-* Shop page
+* Shop page/Optional
 * Getting tested page
