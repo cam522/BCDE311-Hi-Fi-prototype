@@ -472,3 +472,11 @@ form button {
 form button:hover {
     background-color: #0f7ab8;
 }
+
+.psa-factors {
+    margin-top: 1rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+}
