@@ -18,7 +18,6 @@ The website includes:
 - JavaScript
 
 ## Project structure
-
 - `index.html` – Main landing page.
 - `css/style.css` – Site styling and layout.
 - `js/script.js` – Slideshow and accordion interactivity.
