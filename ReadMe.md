@@ -13,7 +13,7 @@ The website includes:
 - A frequently asked questions section.
 - Treatment and testing information.
 - Donation and support links.
-- Responsive styling for desktop and mobile viewing.
+- Link to an AI agent.
 
 ## AI Agent
 The agent on the webpage links to the agent which is currently in Microsoft copilot studio.
