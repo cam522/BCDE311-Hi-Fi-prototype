@@ -2,7 +2,7 @@
 This project is a static informational website for the Prostate Cancer Foundation of New Zealand (PCFNZ). It is designed to raise awareness about prostate health, prostate cancer, testing, treatment options, and support services for men and families.
 
 # AI Declaration
-
+AI has been used in this project. The Ai agent used was Github Copilot built into VS code. This agent was used to help with debugging and to speed coding alone by autocompling lines of code in the project. It did not generate code for me based on text prompts, it was only used to help when stuck or to autocomplete lines of code.
 
 
 ## Project overview
