@@ -59,3 +59,21 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+
+// Form submission with pop-up message
+const form = document.getElementById('customForm');
+const modal = document.getElementById('popupModal');
+const closeBtn = document.getElementById('closeBtn');
+
+if (form && modal && closeBtn) {
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    modal.classList.add('modal-show');
+    form.reset();
+  });
+
+  closeBtn.addEventListener('click', function() {
+    modal.classList.remove('modal-show');
+  });
+}
