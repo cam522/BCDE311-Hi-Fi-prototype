@@ -216,6 +216,50 @@ footer {
     color: #000000;
 }
 
+.ai-agent-wrapper {
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    z-index: 1000;
+}
+
+.ai-agent-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.65rem 1rem 0.65rem 0.7rem;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #0f6cbd, #1ec3ef);
+    color: #ffffff;
+    text-decoration: none;
+    box-shadow: 0 8px 22px rgba(15, 108, 189, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ai-agent-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(15, 108, 189, 0.42);
+}
+
+.ai-agent-icon {
+    width: 2.3rem;
+    height: 2.3rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+
+.ai-agent-text {
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.04em;
+}
+
 body {
     color: #000000;
     font-family: Arial, sans-serif;

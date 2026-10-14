@@ -1,6 +1,10 @@
 # Prostate Cancer Foundation of New Zealand Website
 This project is a static informational website for the Prostate Cancer Foundation of New Zealand (PCFNZ). It is designed to raise awareness about prostate health, prostate cancer, testing, treatment options, and support services for men and families.
 
+# AI Declaration
+
+
+
 ## Project overview
 The website includes:
 
@@ -11,6 +15,9 @@ The website includes:
 - Treatment and testing information.
 - Donation and support links.
 - Responsive styling for desktop and mobile viewing.
+
+## AI Agent
+The agent on the webpage links to the agent which is currently in Microsoft copilot studio.
 
 ## Tech stack
 - HTML
