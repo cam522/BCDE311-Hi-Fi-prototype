@@ -579,3 +579,21 @@ form button:hover {
     transform: translate3d(var(--x, 0), var(--fall-distance, 100vh), 0) rotate(var(--rotation, 360deg));
   }
 }
+
+.graph {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto;
+}
+
+.graph + p {
+    text-align: center;
+}
+
+.mySlides img {
+    display: block;
+    width: 100%;
+    height: clamp(220px, 38vw, 520px);
+    object-fit: cover;
+}
