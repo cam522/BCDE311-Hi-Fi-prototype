@@ -62,6 +62,3 @@ Because this is a static website, there is no install step required.
 
 ## Credits
 This project references and builds upon publicly available information related to the Prostate Cancer Foundation of New Zealand. All content is intended for awareness and informational use.
-
-## License
-This project is for educational and informational use. Please review the original organisation resources for official terms and usage policies.
