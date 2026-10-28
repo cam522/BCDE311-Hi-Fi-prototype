@@ -8,7 +8,7 @@ AI has been used in this project. The Ai agent used was Github Copilot built int
 This contains all the prompts used when AI was used in this project.
 * Make me a pie chart showing prostate cancer rates and deaths in nz with recent data.
 * Create me images of different prostate cancer treatment options.
-* Remove the register today button on the image.
+* Remove the register today button on the images. (The images being the ones on the home page.)
 
 ## Project overview
 The website includes:
